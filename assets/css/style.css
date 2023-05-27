@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+#background{
+    background-image: url(../img/a7d55efa-6f69-460c-9981-f0041c8c586b\ 1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 499px;  
+    background-repeat: no-repeat;
+
+}
+.effect{
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    left: 0px;
+    top: 82px;
+    display: flex;
+    background: linear-gradient(360deg, rgba(30, 8, 162, 0.4) 10.05%, rgba(30, 8, 162, 0) 95.59%);
+}
+.effectbox{
+    box-sizing: border-box;   
+    border-right: 1px solid #84B6F4;
+}
+.waves img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;   
+    width: 100%;
+    height: auto;
+    
+}
+
+.waves-second img{
+    position: absolute  ;
+    top: 26rem;
+    left: 0;
+    right: 0;
+    display: flex;   
+    width: 100%;
+    height: auto;
+    
+}
+.priv{
+    position: relative;
+}
