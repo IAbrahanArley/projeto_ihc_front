@@ -58,9 +58,20 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5);
-    background-color: var(--bs-modal-footer-bg);
-    border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
-    border-bottom-right-radius: var(--bs-modal-inner-border-radius);
-    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+
+}
+.main{
+    text-align: center;
+}
+.text-pricipal{
+    top: 13rem;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    color: white;
+    font-size: 60px;
+}
+.space{
+    margin: 10px;
+    
 }

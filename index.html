@@ -38,7 +38,8 @@
     </nav>
     <!-- inicio menu e imagem -->
     <div>
-      <div id="background">
+      <div id="background" >
+        <h1 class="text-pricipal">Bem Vindo a João Pessoa</h1>
         <div class="effect">
           <nav>
             <div class="nav-item" style="align-items: center; display: flex; margin: 0px 5px">
@@ -130,25 +131,26 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <h1 class="modal-title fs-5" style="justify-content: center;" id="exampleModalLabel">Login</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div class="mb-3 row">
-          <label for="inputPassword" class="col-sm-2 col-form-label">Usuario</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword">
-          </div>
+      <div class="modal-body modal-body-input">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="Usuario">
+          <label for="floatingInput">Usuario</label>
         </div>
-        <div class="mb-3 row">
-          <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword">
-          </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
         </div>
-      </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Lembrar senha
+          </label>
+        </div>
       <div class="modal-footer-test">
-        <button type="button" class="btn btn-primary">Login</button>
+        <a type="button"  class="btn btn-primary" href="cadastro.html">Login</a>
       </div>
     </div>
   </div>
