@@ -1,9 +1,9 @@
-body{
+ body{
     margin: 0;
     width: 100%;
     height: 100vh;
 }
-
+ 
 
 
 #background{
@@ -29,27 +29,26 @@ body{
 }
 .waves img{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 23rem;
     display: flex;   
     width: 100%;
-    height: auto;
+    height: 40vh;
     
 }
 
-.waves-second img{
-    position: absolute  ;
-    top: 26rem;
+.waves-second img {
+    position: absolute;
     left: 0;
     right: 0;
-    display: flex;   
+    top: 55rem;
+    display: flex;
     width: 100%;
     height: auto;
-    
+
 }
 .priv{
     position: relative;
+
 }
 
 .modal-footer-test{
@@ -63,15 +62,36 @@ body{
 .main{
     text-align: center;
 }
-.text-pricipal{
-    top: 13rem;
-    position: absolute;
-    left: 30%;
-    right: 30%;
+.text-pricipal h1{
+    display: flex;
+    text-align: center;
+    top: 30%;
+    position: relative;
+    max-width: 100%;
+    height: auto;
     color: white;
     font-size: 60px;
+    flex-flow: column;
 }
 .space{
     margin: 10px;
     
 }
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .intro-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .intro-text-content  h2  {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .icon-content {
+    position: relative;
+  }
