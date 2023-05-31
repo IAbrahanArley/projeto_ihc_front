@@ -4,6 +4,9 @@
     height: 100vh;
 }
  
+:root{
+  --primary-color: #fff;
+}
 
 
 #background{
@@ -135,5 +138,44 @@
   }
 
   .column-content{
-    height: 300px;
+    height: 200px;
   }
+
+  .modal-content{
+    background: linear-gradient(0deg, rgba(10, 59, 184, 0.4), rgba(10, 59, 184, 0.4)), linear-gradient(180deg, #38B8E0 28.32%, rgba(110, 197, 246, 0) 100%);
+    background-blend-mode: normal, screen;
+    border-radius: 40px;
+    
+  }
+  .modal-content h1  {
+    color: #ffff;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 25px;
+  }
+  .button-size a{
+  width: 100%;
+  }
+
+  .form-effect{
+    border: #84B6F4;
+  }
+ .your-img-effect{
+  background: #D9D9D9;
+  border-radius: 15px;
+  width: 231px; 
+  height: 143px;
+ }
+ .your-img-effect h2{
+  height: 140px;
+  margin-bottom: 0px;
+  top: 3rem;
+  position: relative;
+  font-size: 20px;
+ }
+
+ .box-effect{
+  border: 1px solid #8BBAF5;
+  border-radius: 15px;
+  margin-bottom: 30px;
+ }

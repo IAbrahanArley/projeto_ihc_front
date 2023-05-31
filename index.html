@@ -150,11 +150,10 @@
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-content">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" style="justify-content: center;" id="exampleModalLabel">Login</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h1 class="modal-title " style="text-align: center  ;" id="exampleModalLabel">Login</h1>
         </div>
         <div class="modal-body modal-body-input">
           <div class="form-floating mb-3">
@@ -165,14 +164,21 @@
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">
-              Lembrar senha
-            </label>
+          <div class="form-check" style="margin-top: 10px;">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" style="padding-right: 87px; color: #fff;" for="flexCheckChecked">Lembrar senha</label>
+                </div>
+                <div class="col">
+                  <a href="" style="padding-left: 60px; color: #fff;">Esqueceu a senha?</a>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="modal-footer-test">
-            <a type="button" class="btn btn-primary" href="cadastro.html">Login</a>
+            <a type="button" class="btn btn-primary" style="width: 120px;" href="cadastro.html">Login</a>
           </div>
         </div>
       </div>
